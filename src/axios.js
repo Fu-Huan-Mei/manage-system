@@ -50,8 +50,7 @@ service.interceptors.response.use(
       });
     }
     // 对响应错误做点什么:统一做错误提示信息
-    toast(msg,'error');
-    console.log('msg=',msg, typeof msg)
+    toast('操作成功!');
     //将请求错误作为 Promise 的 rejection 值进行传递，以便在 Promise 链中进行错误处理
     return Promise.reject(error);
   });
