@@ -66,6 +66,10 @@ public
 ├── vite.svg -- 通用组件封装
 ├── wepay.png -- svg矢量图片文件
 src -- 源码目录
+├── App.vue -- axios网络请求定义
+├── axios.js -- 静态图片资源文件
+├── main.js -- 通用组件封装
+├── permission.js --
 ├── api -- axios网络请求定义
 ├── assets -- 静态图片资源文件
 ├── components -- 通用组件封装
@@ -80,14 +84,19 @@ src -- 源码目录
     ├── 404.vue  
     ├── access 
     ├── category 
-    └── comment
-    ├──
-    ├── index.vue -- 首页
-    ├── login.vue -- 登录页
-    ├── 404.vue  
-    ├── access 
-    ├── category 
-    └── comment
+    ├── comment
+    ├── coupon
+    ├── distribution 
+    ├── goods -- 登录页
+    ├── image 
+    ├── level 
+    ├── manager 
+    ├──notice
+    ├── order
+    ├── role 
+    ├── setting -- 登录页
+    ├── skus 
+    └── user
 .env.development
 .env.production
 .gitignore
@@ -96,6 +105,7 @@ package-lock.json
 package.json
 vite.config.js
 ```
+
 
 ## 搭建步骤
 - 下载node并安装：[https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi](https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi);
