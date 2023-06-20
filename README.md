@@ -43,6 +43,7 @@
 |NProgress          |轻量级的进度条库,版本号为 0.2.0 | [https://ricostacruz.com/nprogress/](https://ricostacruz.com/nprogress/) |
 |VueUse/Core        |集成多个 Vue.js 的实用工具库,版本号为 10.1.2| [https://vueuse.org/core/](https://vueuse.org/core/) |
 |VueUse/Integrations|包含多个 Vue.js 集成插件库,版本号为 10.1.2  | [https://vueuse.org/integrations/](https://vueuse.org/integrations/) |
+|Windicss        |  CSS 框架，版本号为 4.3.2 | [https://cn.windicss.org/](https://cn.windicss.org/)       |
 
 
 ## 插件
@@ -51,7 +52,7 @@
 | ----------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
 | Vite              | 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://vitejs.dev/](https://vitejs.dev/)                     |
 | @vitejs/plugin-vue| 一个 Vite 插件，用于支持 Vue.js 单文件组件，版本号为 4.1.0| [https://cn.vitejs.dev/plugins/](https://cn.vitejs.dev/plugins/dev/)               |
-|vite-plugin-windicss| 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://cn.windicss.org/](https://cn.windicss.org/)                     |
+|vite-plugin-windicss| 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://www.viterc.cn/en/vite-plugin-windicss.html](https://www.viterc.cn/en/vite-plugin-windicss.html)                     |
 
 
 ## 项目布局
