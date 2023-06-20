@@ -9,18 +9,16 @@
 
 ## 项目介绍
 
-`manager-system`项目是一个商城的后台管理系统，采用Docker容器化部署。后台管理系统包含后台面板、商品管理、用户管理、订单管理、管理员管理、系统设置、分销模块、统计报表等模块。
+`manager-system`项目是一个商城后台管理系统的前端项目，基于Vue+Element实现，采用Docker容器化部署。主要包含后台面板、商品管理、用户管理、订单管理、管理员管理、系统设置、分销模块、统计报表等功能。
 
 ### 项目演示
 
-#### 后台管理系统
-
 前端项目`manager-system`地址：https://github.com/Fu-Huan-Mei/manage-system.git
 
-项目演示地址： [http://www.toponlineweb.top](http://www.toponlineweb.top)  
+项目在线演示地址： [http://www.toponlineweb.top](http://www.toponlineweb.top)  
 
 项目展示：
-![Alt text](1.jpg)
+![分销设置](1.jpg)
 
 ![后台首页](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20230620172600838.png)
 
