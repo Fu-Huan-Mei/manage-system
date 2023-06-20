@@ -51,7 +51,7 @@
 
 ![分销员管理](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20230620173632126.png)
 
-![分销设置](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20230620173703860.png)
+![image-20230620174340681](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20230620174340681.png)
 
 
 
