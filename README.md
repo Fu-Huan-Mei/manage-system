@@ -60,66 +60,53 @@
 ## 项目布局
 
 ``` lua
-.vscode
-├── extensions.json
-public
-├── tinymce -- axios网络请求定义
-├── alipay.png -- 静态图片资源文件
-├── vite.svg -- 通用组件封装
-├── wepay.png -- svg矢量图片文件
-src -- 源码目录
-├── App.vue -- axios网络请求定义
-├── axios.js -- 静态图片资源文件
-├── main.js -- 通用组件封装
-├── permission.js --
-├── api -- axios网络请求定义
-├── assets -- 静态图片资源文件
+.vscode -- Visual Studio Code编辑器的配置文件
+├── extensions.json -- 全局配置对象
+public -- 根目录的静态文件
+├── tinymce -- 富文本编辑器的 TinyMCE 库或插件文件
+├── alipay.png -- 支付宝的图片图标，用于在应用程序中显示支付宝支付相关的信息
+├── vite.svg -- Vite.js 的 SVG 图标或标志，用于在应用程序中显示 Vite.js 相关的信息
+├── wepay.png -- 微信支付的图片图标，用于在应用程序中显示微信支付相关的信息
+src -- Vue.js应用程序的源代码
+├── App.vue -- 应用程序的根组件，定义了应用程序的整体结构和行为
+├── axios.js -- 与后端 API 进行通信的 Axios 实例
+├── main.js -- 应用程序的入口点，负责初始化 Vue 实例并将其挂载到 DOM 上
+├── permission.js -- 授权和身份验证的逻辑
+├── api -- 所有与后端 API 进行通信的代码
+├── assets -- 静态资源，例如图像、字体和样式表
 ├── components -- 通用组件封装
-├── composables -- 
-├── directives -- 
-├── layout -- 
-├── router -- 
-├── store -- 
+├── composables -- 工具函数封装
+├── directives -- 权限配置
+├── layout -- 布局组件
+├── router -- vue-router路由配置
+├── store -- vuex的状态管理
 └── pages -- 前端页面
     ├── index.vue -- 首页
     ├── login.vue -- 登录页
-    ├── 404.vue  
-    ├── access 
-    ├── category 
-    ├── comment
-    ├── coupon
-    ├── distribution 
-    ├── goods -- 登录页
-    ├── image 
-    ├── level 
-    ├── manager 
-    ├──notice
-    ├── order
-    ├── role 
-    ├── setting -- 登录页
-    ├── skus 
-    └── user
-.env.development
-.env.production
-.gitignore
-index.html
-package-lock.json
-package.json
-vite.config.js
+    ├── 404.vue -- 404报错页
+    ├── access -- 权限管理
+    ├── category -- 分类管理
+    ├── comment -- 评论管理
+    ├── coupon -- 优惠券管理
+    ├── distribution -- 分销模块
+    ├── goods -- 商品管理
+    ├── image -- 图库管理
+    ├── level -- 会员等级
+    ├── manager -- 管理员管理
+    ├──notice -- 公告管理
+    ├── order -- 订单管理
+    ├── role -- 角色管理
+    ├── setting -- 系统设置
+    ├── skus -- 规格管理
+    └── user -- 用户管理
+.env.development -- 开发环境的环境变量
+.env.production -- 生产环境的环境变量
+.gitignore -- Git控制系统忽略的文件和目录列表
+index.html -- 整个 Vue.js 应用程序的 HTML 模板
+package-lock.json -- 自动生成的，用于确保每个开发人员在安装依赖时使用相同的版本
+package.json -- 应用程序所需的所有依赖项和脚本
+vite.config.js -- 配置文件
 ```
-
-
-## 搭建步骤
-- 下载node并安装：[https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi](https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi);
-- 该项目为前后端分离项目，访问本地访问接口需搭建后台环境，搭建请参考后端项目[传送门](https://github.com/macrozheng/mall);
-- 访问在线接口无需搭建后台环境，只需将`config/dev.env.js`文件中的`BASE_API`改为[https://admin-api.macrozheng.com](https://admin-api.macrozheng.com)即可;
-- 如果你对接的是[mall-swarm](https://github.com/macrozheng/mall-swarm) 微服务后台的话，所有接口都需要通过网关访问，需要将`config/dev.env.js`文件中的`BASE_API`改为[http://localhost:8201/mall-admin](http://localhost:8201/mall-admin) ；
-- 克隆源代码到本地，使用IDEA打开，并完成编译;
-- 在IDEA命令行中运行命令：`npm install`,下载相关依赖;
-- 在IDEA命令行中运行命令：`npm run dev`,运行项目;
-- 访问地址：[http://localhost:8090](http://localhost:8090) 即可打开后台管理系统页面;
-- 具体部署过程请参考：[mall前端项目的安装与部署](https://www.macrozheng.com/mall/deploy/mall_deploy_web.html)
-- 前端自动化部署请参考：[使用Jenkins一键打包部署前端应用，就是这么6！](https://www.macrozheng.com/mall/reference/jenkins_vue.html)
 
 
 ## 感谢
