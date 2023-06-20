@@ -66,12 +66,24 @@
 | Vue.js            | 前端框架,版本号为 3.2.47| [https://v3.vuejs.org/](https://v3.vuejs.org/)                     |
 | Vue Router        | 路由管理器,版本号为 4.2.1 | [https://router.vuejs.org/](https://router.vuejs.org/)       |
 | Vuex              | 全局状态管理库,版本号为 4.0.2| [https://vuex.vuejs.org/](https://vuex.vuejs.org/)           |
-| Element Plus      | 前端UI框架,版本号为 2.3.4 | [https://element.eleme.io/](https://element.eleme.io/)       |
-| Axios             | 前端HTTP框架           | [https://github.com/axios/axios](https://github.com/axios/axios) |
-| e-charts          | 基于Echarts的图表框架   | [https://echarts.apache.org/](https://echarts.apache.org/)         |
-|VueUse             |Vuseuse工具库           | [https://vueuse.org/](https://vueuse.org/) |
-| nprogress         | 进度条控件             | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress) |
-| vue-element-admin | 项目脚手架参考         | [https://github.com/PanJiaChen/vue-element-admin]() |
+| Element Plus      | 前端UI框架,版本号为 2.3.4 | [https://element-plus.org/](https://element-plus.org/)       |
+| Axios             | 基于 Promise 的 HTTP 客户端,版本号为 1.4.0| [https://axios-http.com/](https://axios-http.com/) |
+|ECharts            | 数据可视化的JS图表库,版本号为 5.4.2 | [https://echarts.apache.org/en/index.html](https://echarts.apache.org/en/index.html)  |
+|GSAP               |高性能的JS动画库,版本号为 3.11.5    | [https://greensock.com/gsap/](https://greensock.com/gsap/) |
+|TinyMCE            | 富文本编辑器,版本号为 6.4.2       | [https://www.tiny.cloud/](https://www.tiny.cloud/) |
+|Universal Cookie   | 处理浏览器 cookie 的JS库,版本号为 4.0.4 | [https://www.npmjs.com/package/universal-cookie](https://www.npmjs.com/package/universal-cookie)   |
+|NProgress          |轻量级的进度条库,版本号为 0.2.0 | [https://ricostacruz.com/nprogress/](https://ricostacruz.com/nprogress/) |
+|VueUse/Core        |集成多个 Vue.js 的实用工具库,版本号为 10.1.2| [https://vueuse.org/core/](https://vueuse.org/core/) |
+|VueUse/Integrations|包含多个 Vue.js 集成插件库,版本号为 10.1.2  | [https://vueuse.org/integrations/](https://vueuse.org/integrations/) |
+
+### 插件
+| 插件              | 说明                                                     | 官网                                                         |
+| ----------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
+| Vite              | 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://vitejs.dev/](https://vitejs.dev/)                     |
+| @vitejs/plugin-vue| 一个 Vite 插件，用于支持 Vue.js 单文件组件，版本号为 4.1.0| [https://cn.vitejs.dev/plugins/](https://cn.vitejs.dev/plugins/dev/)               |
+|vite-plugin-windicss| 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://cn.windicss.org/](https://cn.windicss.org/)                     |
+
+
 
 ### 项目布局
 
