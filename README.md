@@ -1,24 +1,21 @@
 ## 友情提示
-
 > 1. **快速体验项目**：[在线访问地址](http://www.toponlineweb.top) 。
 > 2. **项目交流**：想要交流项目的朋友，可以加[3533643117](#QQ号) 。
-> 
-## 前言
 
+
+## 前言
 `manager-system`项目致力于打造一个完整的后台管理系统，采用现阶段流行技术实现。
 
-## 项目介绍
 
+## 项目介绍
 `manager-system`项目是一个商城后台管理系统的前端项目，基于Vue+Element实现，采用Docker容器化部署。主要包含后台面板、商品管理、用户管理、订单管理、管理员管理、系统设置、分销模块、统计报表等功能。
 
-### 项目演示
 
+## 项目演示
 前端项目`manager-system`地址：https://github.com/Fu-Huan-Mei/manage-system.git
-
 项目在线演示地址： [http://www.toponlineweb.top](http://www.toponlineweb.top)  
 - 用户名：admin
 - 密码：admin
-
 项目展示：
 - 后台首页
 ![Alt text](image-2.png)
@@ -59,7 +56,8 @@
 - 公告列表
 ![Alt text](image-21.png)
 
-### 技术选型
+
+## 技术选型
 
 | 技术              | 说明                   | 官网                                                         |
 | ----------------- | --------------------- | ------------------------------------------------------------ |
@@ -76,7 +74,8 @@
 |VueUse/Core        |集成多个 Vue.js 的实用工具库,版本号为 10.1.2| [https://vueuse.org/core/](https://vueuse.org/core/) |
 |VueUse/Integrations|包含多个 Vue.js 集成插件库,版本号为 10.1.2  | [https://vueuse.org/integrations/](https://vueuse.org/integrations/) |
 
-### 插件
+
+## 插件
 | 插件              | 说明                                                     | 官网                                                         |
 | ----------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
 | Vite              | 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://vitejs.dev/](https://vitejs.dev/)                     |
@@ -84,7 +83,7 @@
 |vite-plugin-windicss| 一个快速的构建工具和开发服务器，版本号为 4.3.2| [https://cn.windicss.org/](https://cn.windicss.org/)                     |
 
 
-### 项目布局
+## 项目布局
 
 ``` lua
 src -- 源码目录
