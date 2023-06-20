@@ -71,7 +71,7 @@
 | e-charts          | 基于Echarts的图表框架 | [https://echarts.apache.org/](https://echarts.apache.org/)         |
 |VueUse             |Vuseuse工具库          | [https://vueuse.org/](https://vueuse.org/) |
 | nprogress         | 进度条控件            | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress) |
-| vue-element-admin | 项目脚手架参考        | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) |
+| vue-element-admin | 项目脚手架参考        | [https://github.com/PanJiaChen/vue-element-admin]() |
 
 ### 项目布局
 
