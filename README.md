@@ -4,7 +4,6 @@
 > 
 > **项目交流**：想要交流项目的朋友，可以加[3533643117](#QQ号) 。
 
-**
 
 ## 前言
 
@@ -88,6 +87,7 @@ src -- 源码目录
 - 访问地址：[http://localhost:8090](http://localhost:8090) 即可打开后台管理系统页面;
 - 具体部署过程请参考：[mall前端项目的安装与部署](https://www.macrozheng.com/mall/deploy/mall_deploy_web.html)
 - 前端自动化部署请参考：[使用Jenkins一键打包部署前端应用，就是这么6！](https://www.macrozheng.com/mall/reference/jenkins_vue.html)
+
 
 
 
