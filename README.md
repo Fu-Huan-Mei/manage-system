@@ -9,17 +9,17 @@
 
 ## 项目介绍
 
-`manager-system`项目是一个完整的商城后台管理系统，采用Docker容器化部署。后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。
+`manager-system`项目是一个商城的后台管理系统，采用Docker容器化部署。后台管理系统包含后台面板、商品管理、用户管理、订单管理、管理员管理、系统设置、分销模块、统计报表等模块。
 
 ### 项目演示
 
 #### 后台管理系统
 
-前端项目`mall-admin-web`地址：https://github.com/macrozheng/mall-admin-web
+前端项目`manager-system`地址：https://github.com/Fu-Huan-Mei/manage-system.git
 
-项目演示地址： [https://www.macrozheng.com/admin/index.html](https://www.macrozheng.com/admin/index.html)  
+项目演示地址： [http://www.toponlineweb.top](http://www.toponlineweb.top)  
 
-![后台管理系统功能演示](http://img.macrozheng.com/mall/project/mall_admin_show.png)
+![后台管理系统功能演示]()
 
 #### 前台商城系统
 
