@@ -22,6 +22,9 @@
 - 用户名：admin
 - 密码：admin
 
+项目展示：
+![Alt text](image-18.png) 
+
 
 ## 技术选型
 
@@ -82,45 +85,5 @@ src -- 源码目录
 - 具体部署过程请参考：[mall前端项目的安装与部署](https://www.macrozheng.com/mall/deploy/mall_deploy_web.html)
 - 前端自动化部署请参考：[使用Jenkins一键打包部署前端应用，就是这么6！](https://www.macrozheng.com/mall/reference/jenkins_vue.html)
 
-
-项目展示：
-- 后台首页
-![Alt text](image-2.png)
-- 商城管理
-![Alt text](image-3.png)
-- 分类管理
-![Alt text](image-5.png)
-- 规格管理
-![Alt text](image-6.png)
-- 优惠券列表
-![Alt text](image-7.png)
-- 用户列表
-![Alt text](image-8.png)
-- 会员等级
-![Alt text](image-9.png)
-- 订单列表
-![Alt text](image-10.png) 
-- 评价列表
-![Alt text](image-11.png)
-- 管理员列表
-![Alt text](image-12.png)
-- 菜单权限管理
-![Alt text](image-13.png)
-- 角色管理
-![Alt text](image-14.png)
-- 配置列表
-![Alt text](image-15.png)
-- 交易设置
-![Alt text](image-16.png)
-- 物流设置
-![Alt text](image-17.png) 
-- 分销员管理
-![Alt text](image-18.png) 
-- 分销设置
-![Alt text](image-19.png) 
-- 图库列表
-![Alt text](image-20.png)
-- 公告列表
-![Alt text](image-21.png)
 
 
