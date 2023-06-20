@@ -89,5 +89,8 @@ src -- 源码目录
 - 前端自动化部署请参考：[使用Jenkins一键打包部署前端应用，就是这么6！](https://www.macrozheng.com/mall/reference/jenkins_vue.html)
 
 
+## 感谢
+
+如果对你有帮助送我一颗珍贵的小星星✨✨
 
 
