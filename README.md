@@ -4,18 +4,23 @@
 
 
 ## 前言
+
 `manager-system`项目致力于打造一个完整的后台管理系统，采用现阶段流行技术实现。
 
 
 ## 项目介绍
+
 `manager-system`项目是一个商城后台管理系统的前端项目，基于Vue+Element实现，采用Docker容器化部署。主要包含后台面板、商品管理、用户管理、订单管理、管理员管理、系统设置、分销模块、统计报表等功能。
 
 
 ## 项目演示
+
 前端项目`manager-system`地址：https://github.com/Fu-Huan-Mei/manage-system.git
+
 项目在线演示地址： [http://www.toponlineweb.top](http://www.toponlineweb.top)  
 - 用户名：admin
 - 密码：admin
+
 项目展示：
 - 后台首页
 ![Alt text](image-2.png)
