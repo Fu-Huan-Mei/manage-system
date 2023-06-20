@@ -18,7 +18,6 @@
 项目在线演示地址： [http://www.toponlineweb.top](http://www.toponlineweb.top)  
 
 项目展示：
-![分销设置](1.jpg)
 
 ![后台首页](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20230620172600838.png)
 
