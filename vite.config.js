@@ -17,6 +17,7 @@ export default defineConfig({
     proxy:{
       // 选项写法:用 '/api'代替这个域名
       '/api': {
+        //将前端地址： http://127.0.0.1:5173/代理到后端地址：http://localhost:3000/api
         target: 'http://ceshi13.dishait.cn',//使用/api代替这个域名
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
