@@ -18,7 +18,7 @@
                 <el-form ref="formRef" :rules="rules" :model="form" class="w-[250px]">
                     <!--用户名-->
                     <el-form-item prop="username">
-                        <el-input v-model="form.username" placeholder="请输入用户名">
+                        <el-input v-model="form.username" placeholder="admin">
                             <template #prefix>
                                 <el-icon><user /></el-icon>
                             </template>
@@ -26,7 +26,7 @@
                     </el-form-item>
                     <!--密码-->
                     <el-form-item prop="password">
-                        <el-input type="password" v-model="form.password" show-password placeholder="请输入密码">
+                        <el-input type="password" v-model="form.password" show-password placeholder="admin">
                             <template  #prefix>
                                 <el-icon><lock /></el-icon>
                             </template>
