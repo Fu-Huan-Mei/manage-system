@@ -3,6 +3,12 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Login from '~/pages/login.vue';
 //404页面
 import NotFound from '~/pages/404.vue';
+
+//文件？？
+import Document from '~/pages/document.vue';
+//研报？？
+import Report from '~/pages/report.vue';
+
 //后台首页
 import Index from '~/pages/index.vue';
 //后台布局
@@ -62,7 +68,20 @@ const routes = [
         path: '/:pathMatch(.*)*',
         name: 'NotFound',
         component: NotFound
+    },
+
+    { //文件？？
+        path: '/document',
+        name: 'Document',
+        component: Document
+    },
+
+    { //研报？？
+        path: '/report',
+        name: 'Report',
+        component: Report
     }
+    
 ];
 
 //动态路由，菜单动态添加:通过`菜单路径`来匹配`路由项`，从而实现`动态路由的添加`
