@@ -128,7 +128,8 @@
 </template>
 <!--1、setup返回值：可以是渲染函数
 2、setup、data、methods等可同时写吗？会冲突吗？（面试题）
-答：-->
+答：关键点：beforeCreate在setup前调用：所以当vue2和vue3混用时，在data中
+可访问setup中的数据，但在setup中不能访问data中的数据会报错！！！-->
 <script setup>
 import SearchItem from "~/components/SearchItem.vue";
 import Search from "~/components/Search.vue";
