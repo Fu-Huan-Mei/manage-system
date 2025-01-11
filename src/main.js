@@ -10,6 +10,15 @@ import store from './store/index.js';
 //全局引入所有图标
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 const app = createApp(App);
+// //计算首屏加载时间
+// window.onload = function(){
+//   console.log("计算首屏加载时间=",performance.timing.domComplete-performance.timing.navigationStart);
+//   let observer = new Performance((list)=>{
+//     //list：监听性能数据
+
+//   });
+//   observer.observe({entryTypes:['navigation']});
+// };
 app.use(store);
 app.use(router);
 app.use(ElementPlus);
