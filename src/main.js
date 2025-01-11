@@ -1,9 +1,11 @@
+//引入createApp创建应用
 import { createApp } from 'vue';
 //引入ElementPlus
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 // import 'element-plus/lib/theme-chalk/index.css';
 // import './style.css';
+//引入根组件App
 import App from './App.vue';
 import { router } from './router/index.js';
 import store from './store/index.js';
